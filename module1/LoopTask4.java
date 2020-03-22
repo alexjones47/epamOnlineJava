@@ -14,9 +14,9 @@ public class LoopTask4 {
         for (int i = 1; i <= 200; i++) {
             mult = mult * Math.pow(i, 2);
         }
+        
         if (Double.isInfinite(mult)) {
             System.out.println("Значение произведения выходит за пределы диапазона значений примитивного типа данных double");
-
         } else {
             System.out.println("Произведение квадратов первых двухсот чисел: " + mult);
         }
