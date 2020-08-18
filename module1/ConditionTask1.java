@@ -25,7 +25,7 @@ public class ConditionTask1 {
             }
         }
 
-        System.out.println("Существует ли такой треугольник? " + isTriangleExist);
-        System.out.println("Является ли этот треугольник прямоугольным? " + isTriangleRight);
+        System.out.println("Is this triangle exist " + isTriangleExist);
+        System.out.println("Is this triangle right " + isTriangleRight);
     }
 }
